@@ -1,7 +1,7 @@
 /* global graphql */
 import React from 'react';
 import PropTypes from 'prop-types';
-import FCCSearch from 'react-freecodecamp-search';
+import BDMXSearchBar from 'react-bigdatamx-search';
 import Col from 'react-bootstrap/lib/Col';
 import Grid from 'react-bootstrap/lib/Grid';
 import Image from 'react-bootstrap/lib/Image';
@@ -67,7 +67,7 @@ function Layout({ data, children }) {
               />
             </Link>
           </div>
-          <FCCSearch />
+          <BDMXSearchBar />
         </div>
       </nav>
       <Grid className='bodyContainer'>
