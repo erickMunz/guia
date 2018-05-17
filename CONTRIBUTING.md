@@ -1,261 +1,263 @@
-# Contributing
+# Contribución
 
-With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come. 💛
+Con tu ayuda, podemos crear una herramienta de referencia de facil entendimiento que ayude a miles de personas que deseen aprender código en los siguientes años.  💛
 
-> The following Table of Contents was generated automatically using the [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) extension in [VS Code](https://code.visualstudio.com/).
+> La siguiente tabla de contenido fue generada automaticamente usando [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) con la extención en  [VS Code](https://code.visualstudio.com/).
 
 <!-- TOC -->
 
-- [Contributing](#contributing)
-  - [Steps](#steps)
-  - [Creating a PR](#creating-a-pr)
-    - [Using GitHub.com](#using-githubcom)
-    - [Cloning Locally](#cloning-locally)
-    - [Running Locally](#running-locally)
-  - [Getting PR Accepted](#getting-pr-accepted)
-    - [Labels](#labels)
-    - [Conflicting/Duplicate Content](#conflictingduplicate-content)
-    - [Requesting Changes](#requesting-changes)
-    - [Travis CI Build](#travis-ci-build)
-    - [Closing](#closing)
-    - [Getting Help](#getting-help)
-  - [Article Style Guide](#article-style-guide)
-    - [Title](#title)
-    - [Modularity](#modularity)
-    - [Code Blocks](#code-blocks)
-    - [Links](#links)
-    - [Images](#images)
-    - [Attributions](#attributions)
-    - [Resources](#resources)
-    - [Formatting](#formatting)
-  - [Technical Writing](#technical-writing)
-    - [Outline](#outline)
-    - [Intro](#intro)
-    - [Content](#content)
-    - [Clarity](#clarity)
-    - [Voice](#voice)
-      - [Passive](#passive)
-      - [Active](#active)
-    - [Point of View](#point-of-view)
-    - [Abbreviations](#abbreviations)
-    - [Proper nouns](#proper-nouns)
-    - [Third-Party Tools](#third-party-tools)
-- [Reviewing PRs](#reviewing-prs)
-  - [Squash and Merge](#squash-and-merge)
-  - [Filtering PRs](#filtering-prs)
-  - [Templates](#templates)
-    - [Thank you](#thank-you)
-    - [Thank you and congrats](#thank-you-and-congrats)
-    - [Build Error](#build-error)
-    - [Syncing Fork](#syncing-fork)
-    - [Merge Conflicts](#merge-conflicts)
-    - [Duplicate](#duplicate)
-    - [Closing](#closing-1)
+- [Contribución](#contributing)
+  - [Pasos](#Pasos)
+  - [Creando un PR](#creating-a-pr)
+    - [Usando GitHub.com](#using-githubcom)
+    - [Clonación local](#cloning-locally)
+    - [Ejecutando localmente](#running-locally)
+  - [Obtener PR Accepted](#getting-pr-accepted)
+    - [Etiquetas](#labels)
+    - [Confligtos/Contenido Duplicado](#conflictingduplicate-content)
+    - [Solicitud de cambios](#requesting-changes)
+    - [Compilación Travis CI](#travis-ci-build)
+    - [Cierre](#closing)
+    - [Ayuda](#getting-help)
+  - [Articulo guias de estilo](#article-style-guide)
+    - [Titulo](#title)
+    - [Modularidad](#modularity)
+    - [Bloques de Código](#code-blocks)
+    - [Enlaces](#links)
+    - [Imagenes](#images)
+    - [Atribuciones](#attributions)
+    - [Recursos](#resources)
+    - [Formatos](#formatting)
+  - [Tecnicas de escritura](#technical-writing)
+    - [Resumen](#outline)
+    - [Introducción](#intro)
+    - [Contenido](#content)
+    - [Claridad](#clarity)
+    - [Voz](#voice)
+      - [Pasivo](#passive)
+      - [Activo](#active)
+    - [Puntos de Vista](#point-of-view)
+    - [Abreviaciones](#abbreviations)
+    - [Nombres propios](#proper-nouns)
+    - [Herramientas de terceros](#third-party-tools)
+- [Revisando PRs](#reviewing-prs)
+  - [Funcionar y mezclar](#squash-and-merge)
+  - [Filtado de PRs](#filtering-prs)
+  - [Plantillas](#templates)
+    - [Error de compilación](#build-error)
+    - [Sincronización de bifurcaciones](#syncing-fork)
+    - [Mezclando conflictos](#merge-conflicts)
+    - [Duplicidad](#duplicate)
+    - [Cierre](#closing-1)
 
 <!-- /TOC -->
 
-## Steps
+## Pasos
 
-1. 🍴 [Fork this repo](https://github.com/freeCodeCamp/guides#fork-destination-box)
-2. 👀️ Follow the contributing guidelines outlined below.
-3. 🔧 Make some awesome changes!
-4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guides/compare)
-5. 🎉 Get your pull request approved - success!
+1. 🍴 [Darle Fork este repositorio](https://github.com/freeCodeCamp/guides#fork-destination-box)
+2. 👀️ Siga las guias de contribución resumidas a continuación.
+3. 🔧 ¡Has cambios increibles!
+4. 👉 [Crea una petición "pull"](https://github.com/freeCodeCamp/guides/compare)
+5. 🎉 ¡Haz que tu petición sea aprovada - Exito!
 
-Or just [create an issue](https://github.com/freeCodeCamp/guides/issues) - any little bit of help counts! 😊
+O simplemente [reporta un problema ](https://github.com/freeCodeCamp/guides/issues) - toda la ayuda cuenta!
 
-## Creating a PR
+## Creando un PR
 
-### Using GitHub.com
+### Usando GitHub.com
 
-Watch the video demonstration or follow the steps below it:
+Ve el video demostrativo o siguie los siguientes pasos:
 
-![GIF showing the GitHub interface steps](https://i.imgur.com/0cmxJwN.gif)
+![GIF mostrando los pasos de GitHub](https://i.imgur.com/0cmxJwN.gif)
 
-1. Go into the **"pages"** folder (located in `guides/src`) and find the article stub you'd like to write or edit.
+1. Ve al folder de **"pages"**  (localizado en `guides/src`) y encuentra el articulo plantilla que quisieras escribir o editar.
 
-    > All stubs will be in an index.md file
+    > Todas las plantillas estaran en un documento index.md 
 
-2. Click the <kbd>Edit this file</kbd> pencil icon and make your changes to the file in GitHub-flavored Markdown.
+2. Presiona el icono de lapiz con <kbd>Edit this article</kbd>  y hazle cambios al archivo en formato Markdown de GitHub.
 
-3. Scroll to the bottom of the screen and add a commit message explaining your changes.
+3. Ve hasta el fondo de la pantalla y agrega un mensaje de commit explicando tus cambios.
 
-4. Then select the radio button option for **"Create a new branch for this commit and start a pull request"** and click <kbd>Propose file changes</kbd>.
+4. Despues selecciona la opcion radio button que dice  **"Create a new branch for this commit and start a pull request"** y presiona <kbd>Propose file changes</kbd>.
 
-5. On the next screen, you can add any other details about your PR, then click <kbd>Create pull request</kbd>.
+5. En la siguiete pantalla, podras agregar cualquier detalle acerca de tu PR y despues dar clic en <kbd>Create pull request</kbd>.
 
-### Cloning Locally
+### Clonar localmente
 
-1. Fork this repository
+1. Hazle Fork a este repositorio
 
-2. Copy it to your local machine by running the following command:
-
-    ```bash
-    git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
-    ```
-
-3. Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the following command:
+2. Copialo a tu maquina local con el siguiente comando:
 
     ```bash
-    git remote add upstream https://github.com/freeCodeCamp/guides.git
+    git clone https://github.com/bigdatamx/guides-capacitacion-praxis.git
     ```
 
-4. Create a new branch for your work with the command `git checkout -b NEW-BRANCH-NAME`.
+3. Agrega un upstream remoto de forma que git sepa en donde se encuentra la guia oficial de BigdataMx con el siguiente comando:
 
-    > Try to name your branch in a way that describes your article topic, like `fix/article-html`
+    ```bash
+    git remote add upstream https://github.com/bigdatamx/guides-capacitacion-praxis.git
+    ```
 
-5. Write your article, commit your changes locally, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
+4. Crea un nuevo branch para tu trabajo con el siguiente comando `git checkout -b NOMBRE-BRANCH`.
 
-6. Go to your repository on GitHub and open a PR
+    > Intenta ponerle un nombre que describa el topico de tu articulo como `fix/articulo-html`
 
-Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guides repository.
+5. Escribe tu articulo, hazle commit a tus cambios locales y sañe úsh a tu nuevo branch en GitHub con el comando `git push origin NOMBRE-BRANCH`
 
-The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch.
+6. Ve a tu respositorio en GitHub y abre un PR 
 
-This will grab all the changes on the official `master` branch without making an additional commit in your local repository.
+Asegurate de mantener un fork local en crecimiento de forma que se mantenga actualizado con el repositorio  de BigdataMx.
 
-### Running Locally
+La proxima vez que quieras contribuir, hazle checkout a tu branch local `master` y corre el comando `git pull --rebase upstream master` antes de crear un nuevo branch.
 
-Make sure to have yarn installed (follow these [instructions](https://yarnpkg.com/en/docs/install) if needed).
+Esto tomará todos los cambios en el `master` original sin hacer un commit adicional en tu repositorio local.
+
+### Correrlo local
 
 ```bash
-# fork repo
+# Asegurate de tener yarn instalado
+npm install -g yarn
 
-# clone down your repo
+# dale fork tu repo
+
+# clona tu  repo
 git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
 
-# navigate to root folder
+# posicionate en la raiz de el repo
 cd guides
 
-# install dependencies
+# instala las dependencias
 yarn install
 
-# run locally
+# correlo localmente
 yarn run dev
 ```
 
-In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
+Usamos `yarn` porque `netlify` compila el sitio con `yarn`.
 
-## Getting PR Accepted
+## tu PR aprovada
+
+Aqui hay una guia que siguen los revisores de contenido para los PR:
+
 
 Here are a few guidelines the reviewers follow when reviewing PRs:
+- La descripcion y el titulo son relevantes
+- La PR respeta el [guia de estilo de articulo](./CONTRIBUTING.md/#article-style-guide)
+- Sigue los tips generales  encontrados en [Guia de moderador](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
+- Con que el pull request mejore o expanda la guia, lo aceptamos aunque contenga errores de sintaxis en Español o en el contenido parcial.
+- Pull request viejos son revisados primero
 
-- there is a relevant description and title
-- PR respects the [Article style guide](./CONTRIBUTING.md/#article-style-guide)
-- we follow general QA tips found in [Moderator guidelines](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
-- as long as a pull request improves or expands the guide, we accept it even if it contains imperfect English or partial content
-- older pull requests are reviewed first
+### Etiquetas
 
-### Labels
+- **content** es para pull request que modifican el contenido de los articulos en la guia (agregan un nuevo articulo o actualizan un articulo existente)
+- **duplicate** es para pull requests que tienen el mismo contenido que en otro PR abierto
+- **changes requested** es para pull request que necesitan un cambio antes de ser aceptadas
+- **stale** es para pull requests con la etiqueta _"changes requested"_ que no tienen actividad por mas de 2 semanas y subsqcuentemente seran cerrados.
+  - las _stale_ pull request deben de estar cerradas.
+  - Aqui hay [un ejemplo](https://github.com/freeCodeCamp/guides/pull/235).
 
-- **content** is for pull requests that modify the content of articles on the guide (they add a new article or update an existing article)
-- **duplicate** is for pull requests that have the same content as another open PR
-- **changes requested** is for pull requests that need a change before getting merged
-- **stale** is for pull requests with _"changes requested"_ label that doesn't get activity after about 2 weeks and will subsequently be closed.
-  - A _stale_ pull request should be closed.
-  - Here is [an example](https://github.com/freeCodeCamp/guides/pull/235).
+### Contenido Duplicado/Conflictivo
 
-### Conflicting/Duplicate Content
+Una PR es considerada un **Duplicado** si le hace cambios al mismo articulo con una PR diferente.
 
-A PR is considered a **duplicate** if it makes changes to the same article as another PR.
+En general, un revisor deberá:
 
-In general, a reviewer will:
+1. Ordenar las PR por la mas vieja
+2. Buscar PR con contenido similar
+3. Combinar la PR mas nueva con la mas vieja
 
-1. Sort PR from the oldest
-2. Search for PRs with similar content
-3. Merge from the oldest to the newest
+Es muy probable que existan conflictos al combinar PRs duplicadas.
 
-It is very likely there will be merge conflicts with duplicate PRs.
+Los revisores harán un esfuerzo a resolver estos conflictos en la combinación de PRs.
 
-Reviewers will make every effort to resolve these conflicts and merge duplicate PRs.
+### Pedir cambios
 
-### Requesting Changes
+Si una pull request no es perfecta, el revisor podrá:
+- pedir cambios al contribuidor y agregar la etiqueta *cambios pedidos*
+- Arreglar cambios menores y hacer un commit sobre la PR
 
-If a pull request is not perfect, the reviewer may:
+### Compilacion Travis CI 
+Todas las PRs deben de pasar la verificación de Travis CI antes de que podamos combinarlos.
 
-- request changes to the contributor and add the *changes requested* label
-- fix minor issues and make a commit on top of the PR
+Si una PR rompe la compilación (Travis CI mostrara una "X" roja) habra dos tipos de soluciones.
 
-### Travis CI Build
+Deberas de arreglar el problema antes de que combinemos tu PR:
 
-All PRs must pass the Travis CI checks before we can merge it.
+1. Tu PR crea un nuevo articulo y le falta el `index.md` de alguna forma.
+    - Cada folder dentro de  `src/pages` necesita un archivo`index.md` dentro de el (y el nombre debe de ser `index.md`).
+    - Dos escenarios probables son:
+      - nombraste el archivo con algo diferente a`index.md`, o
+      - creaste un nuevo folder y después un sub-folder, y escribiste el articulo en el subfolder pero no pusiste el archivo `index.md` en el nuevo folder.
+2. El artículo no tiene un `title` en la cabezera.
+    - Por favor checa el [Title](#title) en la sección dentro de [guia de diseño de articulo](#article-style-guide).
 
-If a PR breaks the build (a Travis CI check fails and shows a red "X") there are two likely sources.
+### Cierre
 
-You will need to fix the issue before we can merge your PR:
+Nosotros cerramos un pull request :
 
-1. Your PR creates a new article and it's missing an `index.md` file somewhere.
-    - Every folder in `src/pages` needs an `index.md` file in it (and the name has to be `index.md`).
-    - Two likely scenarios are
-      - you named the new article file something other than `index.md`, or
-      - you created both a new folder, then a sub-folder, you wrote the new article in the sub-folder but forget to put a stub `index.md` file in the new folder
-2. The article doesn't have a `title` field at the top.
-    - Please refer to [Title](#title) section below under [Article Style Guide](#article-style-guide).
+- si un PR mas viejo sobre el mismo articulo es combinado, y tu PR no agrega informacion nueva.
 
-### Closing
+- si hay poco o cero esfuerzo en mejorar la información por ejemplo copiar y pegar info de wikipedia
 
-We close a pull request
+- si hay texto de un origen con copyright - ver [problema con citas](https://github.com/freeCodeCamp/guides/issues/2503)
 
-- if an older PR for the same article is merged, and your PR doesn't add new content
-- if there is zero/little effort in it (e.g: copy pasting from another source like Wikipedia)
-- if there is copied text from a copyrighted source - see [Citation issue](https://github.com/freeCodeCamp/guides/issues/2503)
-- if it does not respect the [Article Style Guide](#article-style-guide)
-- if it does not respect the [Academic Honesty policy](https://www.freecodecamp.org/academic-honesty)
-- if it is stale (if a change is requested and there is no activity for about 2 weeks)
+- si no respecta la [guia de estilo en artículos](#article-style-guide)
+- si no respeta la [política de honestidad académica](https://www.freecodecamp.org/academic-honesty)
+- si se ha hecho un request y no hay actividad por aproximadamente dos semanas
 
-Also, if you're working off a "stub" article, your changes must be substantial enough to replace the stub text.
+Si estas trabajando en un articulo plantilla, los cambios deben de ser significativos para cambiar el texto en la plantilla.
 
-We won't accept a PR that only adds links to the "More Information:" section.
+No aceptaremos una PR que solo agrega links a la sección de "Mas información".
 
-The repository has a `Normalise.js` script that adds attributes to links, but also checks for "This is a stub..." text via a RegEx.
+El respositorio tiene un script `Normalise.js` que agrega atributos a los links pero también verifica si existe el texto "esta es una plantilla" mediante un regexp.
 
 If found, it will revert the article text back to the generic stub text (and erase your changes).
 
 This is intended behavior, since it allows us to update all stubs if the template stub changed for any reason.
 
-### Getting Help
+### Obteniendo ayuda
 
-There's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing.
+Existe una comunidad de apoyo de todo un equipo de gente que contribuye, con quienes puedes intercambiar ideas y solicitar aportaciones sobre lo que escribes.
 
-Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
+Mantente activo en la [sala de chat] (https://gitter.im/freecodecamp/contributors) y haz muchas preguntas.
 
-## Article Style Guide
+## Guia de estilo para articulos
 
-We've written the following guide to writing Guide articles to help you get started contributing.
+Escribimos una guia siguiente guía para escribir artículos de Guía para ayudarlo a comenzar a contribuir.
 
-### Title
+### Título
 
-Article titles should be as short, concise, and to-the-point as possible.
+Los títulos de los artículos deben ser lo más breves, concisos y directos posible.
 
-We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
+Queremos que los contribuidores encuentren rápidamente la información que están buscando, y el título debe reflejar el tema principal del artículo.
 
-Folder name is used in the URL, so only use dashes -, numbers 0-9, and lowercase letters a-z for it.
+El nombre de la carpeta se utiliza en la URL, por lo que solo se utilizan guiones, números 0-9 y letras minúsculas a-z para ello.
 
-However, you can include special characters in the article title.
+Aun asi se pueden poner caracteres especiales título del artículo.
 
-Here are some examples of properly named titles:
+Listamos algunos ejemplos de títulos
 
-> [`src/pages/html/tables/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
+> [`src / pages / html / tables / index.html`] (https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
 
 ```markdown
 ---
-title: Tables
+título: Tablas
 ---
 ```
 
-> [`src/pages/css/borders/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/css/borders/index.md)
+> [`src / pages / css / borders / index.md`] (https://github.com/freeCodeCamp/guides/blob/master/src/pages/css/borders/index.md)
 
 ```markdown
 ---
-title: Borders
+título: Fronteras
 ---
 ```
 
-> [`src/pages/javascript/loops/for-loop/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/javascript/loops/for-loop/index.md)
+> [`src / pages / javascript / loops / for-loop / index.md`] (https://github.com/freeCodeCamp/guides/blob/master/src/pages/javascript/loops/for-loop/index .Maryland)
 
 ```markdown
 ---
-title: For Loop
+título: For Loop
 ---
 ```
 
@@ -267,382 +269,366 @@ We can reference other articles by linking to them inline, or in an "Other Resou
 
 Our goal is to have thousands of articles that cover a broad range of technical topics.
 
-### Code Blocks
+### Modularidad
 
-Campers will likely use Guide articles as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
+Cada artículo debe explicar exactamente un concepto, y ese concepto debe ser evidente en el título del artículo.
 
-GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages.
+Podemos hacer referencia a otros artículos al vincularlos en línea o en la sección "Otros recursos" al final del artículo.
 
-To use it, indicate the language after ```.
+Nuestro objetivo es tener miles de artículos que cubren una amplia gama de temas técnicos.
 
-For example, the following Markdown
+### Bloques de código
+la idea de esto es que el usuario pueda usar estos artículos como referencia rápida.
+
+Los artículos deben tener ejemplos simples del mundo real que muestren casos de uso común de esa sintaxis.
+
+El markup de GitHub permite [agregar bloques de código] (https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) para muchos lenguajes de programación.
+
+Para usarlo, se debe poner el lenguaje de programación después de el ```.
+
+Por ejemplo, el siguiente Markdown
 
 ```markdown
     ```html
-    <div class='awesome' id='more-awesome'>
-      <p>This is text in html</p>
+    <div class = 'awesome' id = 'más-impresionante'>
+      <p> Esto es texto en html </ p>
     </div>
     ```
 ```
 
-will output the following code block with `HTML` syntax highlighting since we indicated the language `html` after the ```.
+dará salida al siguiente bloque de código con resaltado de sintaxis `HTML` ya que indicamos el lenguaje es ` html` después de ```.
 
 ```html
-<div class='awesome' id='more-awesome'>
-  <p>This is text in html</p>
-</div>
+<div class = 'awesome' id = 'más-impresionante'>
+  <p> Esto es texto en html </ p>
+</ div>
 ```
 
-The following represents two other examples using JavaScript and CSS syntax highlighting.
+A continuación, se muestran otros dos ejemplos que utilizan el lenguaje de JavaScript y CSS.
 
 ```markdown
     ```javascript
-    function logTheThings(stuff) {
-      console.log(stuff);
-    }
+        function logTheThings (cosas) {
+          console.log (cosas);
+        }
     ```
 
     ```css
-    .awesome {
-      background-color: #FCCFCC;
-    }
+        .increíble {
+          background-color: #FCCFCC;
+        }
     ```
 ```
 
-Please keep the following recommendations in mind:
+Aquí ejemplo para el uso bloques de código:
 
-- To ensure correct rendering, each codeblock must have a language label. You can find a list of supported languages [here](http://prismjs.com/#languages-list ).
-- For codeblocks with no appropriate language, use generic labels like ` ```text `, or ` ```code `.
-- You may know about markdown's four-space indentation syntax for writing codeblocks. However, this is currently __not__ supported by our rendering system.
-
-Finally, here are some suggested formatting guidelines when writing code blocks:
-
-- JavaScript statements should end with a `;` semicolon
-- Comments made should have a space between the comment characters and the comment themselves
+- Las sentencias de JavaScript deben terminar con un punto y coma `;`
+- Los comentarios realizados deben tener un espacio entre los caracteres de comentario y el comentario, de esta forma:
     ```javascript
-    // Like this
+    // Comentario prueba
     ```
+### Enlaces
 
-### Links
+Use los enlaces web con el estilo de markup en sus artículos para vincular a otros sitios web.
 
-Use Markdown style links in your articles to link to other websites.
-
-```markdown
-[freeCodeCamp](https://www.freecodecamp.org/)
-```
-
-### Images
-
-For including images, if they aren't already hosted somewhere else on the web, you will need to put them online yourself using a platform like [Imgur](https://imgur.com/) or [Flickr](https://www.flickr.com). You can also host images by committing them to a git repository and pushing it to GitHub. Then you can right-click the image and copy its URL.
-
-We don't allow hosting images directly in the git repository because it would make it far too big (people pulling it to their local system to make changes would end up downloading all the images), and because it is easier to change an image by just changing the URL in an article than by putting the new image in the repository.
-
-To include the image in your article, use the appropriate markdown syntax:
+la forma de utilizarlo es la siguiente:
 
 ```markdown
-![Image Title](https://url-to-image)
+[BigdataMx] (https://guias.bigdatamx.org)
 ```
 
-Then the images should show up when you click the <kcd>Preview</kcd> tab.
+### Imágenes
 
-You can also add diagrams, graphics, or visualizations as necessary.
+Para incluir imágenes, si aún no están alojadas en otro sitio en la web, deberá ponerlas en línea usando una plataforma como [Imgur] (https://imgur.com/) o [Flickr] (https: / /www.flickr.com). También puede alojar imágenes comprometiéndolas en un repositorio gitHub. Luego puede hacer clic con el botón derecho en la imagen y copiar su URL.
 
-You can even embed relevant YouTube videos and interactive [REPL.it](https://repl.it/) code editors.
+No permitimos el alojamiento de imágenes directamente en el repositorio de git porque sería demasiado grande (cuando lo descarguen terminarían descargando las imágenes también), y porque es más fácil cambiar una imagen por simplemente cambiando la URL en un artículo que colocando la nueva imagen en el repositorio.
 
-Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
-
-### Attributions
-
-To minimize the potential for plagiarism and maintain integrity in these guides, it is important to give credit where necessary.
-
-Any material quoted, or used directly and unchanged, from source material should be wrapped in quotation marks and be adequately cited. Material that is not a direct quote but is still paraphrased from a different resource should also be cited.
-
-You can create superscript numerals to mark content that is cited using `<sup></sup>` tags.
-
-Like so: <sup>1</sup>
-
-1. freeCodeCamp - Attributions
-
-Then, at the bottom of your article, place a
+Para incluir la imagen en su artículo, use la sintaxis de reducción apropiada:
 
 ```markdown
-### Sources
+! [Título de la imagen] (https: // url-to-image)
 ```
 
-heading and include all of your citations numbered to correspond with your sources.
+También las imágenes deberían aparecer al hacer clic en la pestaña <kcd> Vista previa </kcd>.
 
-An example is highlighted below.
+También puedes agregar diagramas, gráficos o visualizaciones.
+
+También insertár videos de YouTube relevantes y editores de códigos [REPL.it] (https://repl.it/) interactivos.
+
+No se deberá usar emojis o emoticones en la Guía. Bigdatamx tiene una comunidad global, y el significado cultural de un emoji o emoticon puede ser diferente en todo el mundo. Además, los emojis pueden representarse de manera diferente en diferentes sistemas.
+
+### Atribuciones
+
+Para minimizar el la probabilidad de plagio y mantener la integridad en estas guías, es importante dar crédito donde sea necesario.
+
+Cualquier material citado, o usado directamente y sin cambios, del material fuente debe estar entre comillas y ser citado adecuadamente. También se debe citar el material que no es una cita directa pero que aún está parafraseado de un recurso diferente.
+
+Puede crear números de indice para marcar el contenido que se cita con las etiquetas `<sup> </sup>`.
+
+Por ejemplo: <sup> 1 </sup>
+
+1. BigDataMx - Atribuciones
+
+Después, en la parte inferior de su artículo, coloque una
 
 ```markdown
-Here is some content that should be cited.<sup>1</sup>
-
-And here is even more that should be cited from another source.<sup>2</sup>
-
-### Sources
-
-1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
-2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: October 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
+### Fuentes
 ```
 
-You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!).
+Agregue un encabezado e incluya todas sus citas con numero para listar a sus fuentes.
 
-Typically, an attribution has a structure like the following:
-
-> Author Last Name, Author First Name. "Article Title." *Publication.* Publisher. Date Published. Date Accessed.
-
-If you cannot find an author or published date, which is common, simply omit these.
-
-Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic.
-
-Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning.
-
-Please refer to and review freeCodeCamp's [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
-
-### Resources
-
-If there are other Guide resources you think campers would benefit from, add them at the bottom in a "Resources" section with a bulleted list.
+Por ejemplo:
 
 ```markdown
-### Resources
+Texto que debería citarse. <Sup> 1 </ sup>
 
-- [A New Resource](#link)
+Y aquí hay aún más que deberá citarse de otra fuente. <Sup> 2 </ sup>
+
+### Fuentes
+
+1. [Doe, John. "Palabras de autoría". * WikiCoder *. 1 de enero de 1970. Consultado: 20 de octubre de 2017] (#)
+2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources". * Purdue Online Writing Lab. * 12 de octubre de 2017. Consultado: 20 de octubre de 2017.] (https://owl.english.purdue.edu/owl/resource/747/08/)
 ```
 
-### Formatting
+Puede consultar el enlace de Purdue arriba para ver cómo citar correctamente las fuentes web (¡incluso muestran cómo citar los tweets!).
 
-Use double quotes where applicable.
+Normalmente, una atribución tiene una estructura como la siguiente:
 
-Format language keywords as code - this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put back ticks around HTML tag names or CSS property names.
+> Apellido del autor, nombre del autor. "Título del artículo." * Publicación. * Editor. Fecha de publicación. Fecha de acceso.
 
-Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
+Si no puedes encontrar un autor o una fecha publicada, que es común, simplemente omítalos.
 
-## Technical Writing
+Es importante citar correctamente ya que esto no solo mantendrá a las guías acreditadas, sino que estas citas y enlaces también proporcionarán recursos valiosos si el lector desea obtener más información sobre el tema.
 
-Technical writing, or the literature of science and technology, is hard.
+También deberás tener en cuenta que las instancias de plagio se eliminarán o se rechazarán sus solicitudes de extracción, y el usuario recibirá una advertencia.
 
-You'll need to take a technical (usually abstract) topic and explain it in a clear, accurate, and objective manner.
+Consulta las [Políticas de Honestidad Académica] de Bigdata Mx (https://www.freecodecamp.org/academic-honesty) antes de contribuir.
+### Recursos
 
-You'll likely go through several rounds of proofreading and editing before you're happy with the result.
+Si hay otros recursos de la guía que piensas que beneficiarían los lectores, agrégalos en la parte inferior de la sección de "Recursos" con una lista.
+
+```markdown
+### Recursos
+
+- [Un nuevo recurso] (# enlace)
+```
+
+### Formateo
+
+Use comillas dobles donde corresponda.
+
+Utilice la coma de Oxford cuando sea posible (es una coma utilizada después del penúltimo elemento en una lista de tres o más elementos, antes de 'y' o 'o', por ejemplo, un pintor, escultor y arquitecto italiano). Hace las cosas más fáciles, más claras y más bonitas de leer.
+
+## Escritura técnica
+
+La escritura técnica, o la literatura de ciencia y tecnología, es difícil.
+
+Tendrá que tomar un tema técnico (generalmente abstracto) y explicarlo de manera clara, precisa y objetiva.
+
+Es probable que pases por varias rondas de revisión y edición antes de que se tenga un contenido final.
 
 ### Outline
 
-Before you begin writing, create an outline of the topic and think about any coding examples you'll use (if applicable).
+Antes de comenzar a escribir, cree un resumen del tema y piense en los ejemplos de codificación que usará (si corresponde).
 
-This helps to organize your thoughts and make the writing process easier.
+Esto ayuda a organizarse y facilitar el proceso de escritura.
 
-### Intro
+### Introducción
 
-The introduction paragraph should only be 1-2 sentences long and be a simple explanation of the main topic. It should limit the use of any links to other Guide articles, as they can be distracting.
+El párrafo de introducción debe tener solo de 1 a 2 oraciones y ser una explicación simple del tema principal. 
 
-### Content
+Evite el uso de cualquier enlace a otros artículos de la Guía, ya que pueden ser una distracción.
 
-Keep paragraphs short (around 1-4 sentences). People are more likely to read several short paragraphs over a wall of text.
+### Contenido
 
-### Clarity
+Mantenga los párrafos cortos (alrededor de 1 a 4 oraciones). Es más probable que las personas lean varios párrafos cortos sobre un muro de texto.
 
-Articles should be written with short, clear sentences, and use as little jargon as necessary.
+### Claridad
 
-All jargon should be defined immediately in plain English.
+Los artículos deben escribirse con oraciones cortas y claras, y usar la menor jerga que sea necesaria.
 
-### Voice
+Toda la jerga debe definirse inmediatamente.
 
-Use active voice instead of passive voice. Generally, it's a stronger and more straightforward way to communicate a subject. For example:
+### Voz
 
-#### Passive
+Usas voz activa en lugar de voz pasiva. En general, es una manera más fuerte y más directa de comunicar un tema. Por ejemplo:
 
-The `for` loop in JavaScript is used by programmers to...
+#### Pasivo
 
-#### Active
+El bucle `for` en JavaScript es utilizado por los programadores para ...
 
-Programmers use the `for` loop in JavaScript to...
+#### Activo
 
-### Point of View
+Los programadores usan el bucle `for` en JavaScript para ...
 
-Text should use the second person ("you") to help to give it a conversational tone.
+### Punto de vista
 
-This way, the text and instructions seem to speak directly to the camper reading it.
+El texto debe usar la segunda persona ("usted") para ayudar a darle un tono de conversación.
 
-Try to avoid using the first person ("I", "we", "let's", and "us").
+De esta manera, el texto y las instrucciones parecen dirigirse directamente al campista leyéndolo.
 
-### Abbreviations
+Intente evitar el uso de la primera persona ("Yo", "nosotros", "vamos" y "nos").
 
-If you want to abbreviate a term in your article, write it out fully first, then put the abbreviation in parentheses.
+### Abreviaturas
 
-For example, `"In computer science, an abstract syntax tree (AST) is ..."`
+Si deseas abreviar un término en su artículo, escríbelo completo primero, luego ponga la abreviación entre paréntesis.
 
-### Proper nouns
+Por ejemplo, `" En ciencias de la computación, un árbol de sintaxis abstracta (ASA) es ... "`
 
-Proper nouns should use correct capitalization when possible. Below is a list of words as they should appear in Guide articles.
+### Nombres propios
 
-- JavaScript (capital letters in "J" and "S" and no abbreviations)
+Los nombres propios deben usar mayúsculas correctas cuando sea posible. A continuación hay una lista de palabras tal como deberían aparecer en los artículos de la Guía.
+
+- JavaScript (letras mayúsculas en "J" y "S" y sin abreviaturas)
 - Node.js
 
-Front-end development (adjective form with a dash) is when you working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
+El desarrollo de front-end (forma adjetiva con un guion) es cuando se trabaja en el front-end (forma de sustantivo sin guión). Lo mismo ocurre con el back-end, la pila completa y muchos otros términos compuestos.
 
-### Third-Party Tools
+### Herramientas de terceros
 
-To check for grammar and spelling, we recommend using an app like [Grammarly](https://grammarly.com) or a built in extension/plugin that checks for this within your text editor.
+Para verificar la gramática y la ortografía, recomendamos usar una aplicación como [Grammarly] (https://grammarly.com) o una extensión / complemento integrado que verifique esto en su editor de texto como lo son:
 
-- [VS Code](https://code.visualstudio.com/) - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [Sublime Text 3](https://www.sublimetext.com/docs/3/spell_checking.html)
+- [Código VS] (https://code.visualstudio.com/) - [Código Corrector ortográfico] (https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [Sublime Text 3] (https://www.sublimetext.com/docs/3/spell_checking.html)
 
-To check your writing style, we recommend the  [Hemingway App](http://www.hemingwayapp.com/).
+Para verificar su estilo de escritura, recomendamos la [Aplicación Hemingway] (http://www.hemingwayapp.com/).
 
-There’s nothing magical about this simple tool, but it will automatically detect widely agreed-upon style issues:
+No hay nada mágico en esta sencilla herramienta, pero detectará automáticamente problemas de estilo ampliamente acordados:
 
-- passive voice
-- unnecessary adverbs
-- words that have more common equivalents
+- voz pasiva
+- adverbios innecesarios
+- palabras que tienen equivalentes más comunes
 
-The Hemingway App will assign a "grade level" for your writing.
+La aplicación Hemingway asignará un "nivel de grado" para su escritura.
 
-You should aim for a grade level of 6.
+Debes aspirar a un nivel de grado de 6.
 
-Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but might help avoid overspecialized wording.
-
----
-
-# Reviewing PRs
-
-> This section is targeted at reviewers of this repo.
-
-## Squash and Merge
-
-We use the <kcd>Squash and merge</kcd> option when merging the PR which keeps the commit history clean.
-
-![GIF - Squash and merge](https://files.gitter.im/FreeCodeCamp/Contributors/56MQ/9cb8db153d7bb1b3576cd1ffc207e39d.gif)
-
-## Filtering PRs
-
-> PR, Open, Oldest First, Travis CI Build successful, no one assigned, no comments
-
-[`is:pr is:open sort:updated-asc status:success no:assignee comments:0`](https://github.com/freeCodeCamp/guides/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20status%3Asuccess%20no%3Aassignee%20comments%3A0)
-
-> PR, Open, Oldest First, Does not have labels: `platform`, `enhancement`, `invalid` or `changes requested`
-
-[`is:pr is:open sort:updated-asc -label:platform -label:enhancement -label:invalid -label:"changes requested"`](https://github.com/freeCodeCamp/guides/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20-label%3Aplatform%20-label%3Aenhancement%20-label%3Ainvalid%20-label%3A%22changes%20requested%22).
-
-## Templates
-
-> You can make your own with GitHub's built in [**Saved replies**](https://github.com/settings/replies/) feature or use the ones below.
-
-### Thank you
-
-```markdown
-Thank you for your contribution to the page! 👍
-We're happy to accept these changes, and look forward to future contributions. 🎉
-```
-
-### Thank you and congrats
-
-> For thanking and encouraging first-time contributors.
-
-```markdown
-Hi @username. Congrats on your first pull request (PR)! 🎉
-
-Thank you for your contribution to the page! 👍
-We're happy to accept these changes, and look forward to future contributions. 📝
-```
-
-### Build Error
-
-```markdown
-Hey @username
-
-So I'd love to be able to merge your changes but it looks like there is an error with the Travis CI build. ⚠️
-
-Once you resolve these issues, I will be able to review your PR and merge it. 😊
+Otra herramienta disponible es la [De-Jargonizer] (http://scienceandpublic.com/), originalmente diseñada para la comunicación científica, pero podría ayudar a evitar una redacción sobreespecializada.
 
 ---
 
-> Feel free to reference the [Article Style Guide](https://github.com/freeCodeCamp/guides#article-title) for this repo on formatting an article correctly so your Travis CI build passes. ✅
+# Revisión de relaciones públicas
+
+> Esta sección está dirigida a los revisores de este repositorio.
+
+## Aplastar y Combinar
+
+Usamos la opción <kcd> Aplastar y combinar </kcd> al fusionar el PR que mantiene limpio el historial de confirmaciones.
+
+! [GIF - Aplastar and merge] (https://files.gitter.im/FreeCodeCamp/Contributors/56MQ/9cb8db153d7bb1b3576cd1ffc207e39d.gif)
+
+## filtrado de relaciones públicas
+
+> Relaciones Públicas, Abierto, El más antiguo Primero, Travis CI Build exitoso, nadie asignado, no hay comentarios
+
+[`La: PR es: open sort: estado asc actualizado: éxito no: comentarios del destinatario: 0`] (https://github.com/bigdatamx/guides-capacitacion-praxis/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Adaptado-asc%20status%3Asuccess%20no%3Aassignee%20comments%3A0)
+
+> PR, abierto, el más antiguo primero, no tiene etiquetas: `platform`,` enhancement`, `invalid` o` changes requested`
+
+[`La: PR es: open sort: updated-asc -label: platform -label: enhancement -label: invalid -label:" changes requested "`] (https://github.com/bigdatamx/guides-capacitacion-praxis//pulls?utf8=%E2%9C%93&q=es% 3Apr%20is%3Aopen%20sort%3Adaptado-asc%20-label%3Aplatform%20-label%3Aenhancement% 20-label% 3Ainvalid%20-label%3A%22changes%20requested%22).
+
+## Plantillas
+
+> Puede hacer la suya con la función [** replies saved **] (https://github.com/settings/replies/) integrada de GitHub o usar las siguientes.
+
+### Error de compilación
+
+```markdown
+Hola, @username
+
+Así que me encantaría poder fusionar los cambios, pero parece que hay un error con la compilación de Travis CI. ⚠️
+
+Una vez que resuelva estos problemas, podré revisar sus relaciones públicas y fusionarlos. 😊
+
+---
+
+> No dude en consultar la [Guia de estilos] (https://github.com/freeCodeCamp/guides#article-title) para este repositorio sobre el formato correcto de un artículo para que su compilación de Travis CI pase. ✅
 >
-> Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
+> Además, es una buena práctica en GitHub escribir una breve descripción de los cambios al crear un PR. 📝
 ```
 
-### Syncing Fork
+### Sincronización de horquillas
 
-> When PR is not up to date with `master` branch.
+> Cuando un PR no está actualizado con la rama `master`.
 
-``````markdown
-Hey @username
+```` `` markdown
+Hola, @username
 
-So I'd love to be able to merge your changes but it looks like there is an error with the Travis CI build. ⚠️
+Así que me encantaría poder fusionar los cambios, pero parece que hay un error con la compilación de Travis CI. ⚠️
 
 ```bash
-Error: ENOTDIR: not a directory, open 'src/pages/java/data-abstraction/index.md'
+Error: ENOTDIR: no es un directorio, abre 'src / pages / java / data-abstraction / index.md'
 ```
 
-This particular error was not actually caused by your file but was an old error caused by merging faulty code to the `master` branch. It has since been resolved.
+Este error en particular no fue causado por su archivo, sino que fue un error antiguo causado por la fusión del código defectuoso con la rama `master`. Desde entonces ha sido resuelto.
 
-To pass the build, you will have to sync the latest changes from the `master` branch of the `freeCodeCamp/guides` repo.
+Para pasar la compilación, deberá sincronizar los últimos cambios desde la rama `master` del repositorio` freeCodeCamp / guides`.
 
-Using the command line, you can do this in three easy steps:
+Usando la línea de comando, puede hacer esto en tres sencillos pasos:
 
 ```bash
-git remote add upstream git://github.com/freeCodeCamp/guides.git
+git remote add upstream git: //github.com/freeCodeCamp/guides.git
 
-git fetch upstream
+git buscar aguas arriba
 
 git pull upstream master
 ```
 
-If you're using a GUI, you can simply `Add a new remote...` and use the link `git://github.com/freeCodeCamp/guides.git` from above.
+Si está usando una GUI, puede simplemente `Agregar un nuevo control remoto ...` y usar el enlace `git: // github.com / freeCodeCamp / guides.git` desde arriba.
 
-Once you sync your fork and pass the build, I will be able to review your PR and merge it. 😊
+Una vez que sincronice su fork y pase la compilación, podré revisar su PR y fusionarla. 😊
 
 ---
 
-> Feel free to reference the [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/) article on GitHub for more insight on how to keep your fork up-to-date with the upstream repository. 🔄
+> Sientete libre de hacer referencia al artículo [Syncing a Fork] (https://help.github.com/articles/syncing-a-fork/) en GitHub para obtener más información sobre cómo mantener su tenedor actualizado con el repositorio aguas arriba 🔄
 >
-> Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
-``````
+> Además, es una buena práctica en GitHub escribir una breve descripción de los cambios al crear un PR. 📝
+```
+### Conflictos de fusión
 
-### Merge Conflicts
-
-> When PR has merge conflicts that need to be resolved.¹
+> Cuando la PR tiene conflictos de fusión que deben resolverse.¹
 
 ```markdown
-Hey @username
+Hola, @username
 
-So I'd love to be able to merge your changes but it looks like you have some merge conflicts. ⚠️
+Así que me encantaría poder fusionar tus cambios, pero parece que tienes algunos conflictos de fusión. ⚠️
 
-Once you resolve these conflicts, I will be able to review your PR and merge it. 😊
+Una vez que resuelva estos conflictos, podré revisar su PR y fusionarlo. 😊
 
 ---
 
-> If you're not familiar with the merge conflict process, feel free to look over GitHub's guide on ["Resolving a merge conflict"](https://help.github.com/articles/resolving-a-merge-conflict-on-github/). 🔍️
+> Si no está familiarizado con el proceso de fusión de conflictos, no dude en consultar la guía de GitHub sobre ["Resolver un conflicto de combinación"] (https://help.github.com/articles/resolving-a-merge-conflict- on-github /). 🔍️
 >
-> Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
+> Además, es una buena práctica en GitHub escribir una breve descripción de los cambios al crear un RP. 📝
 ```
-¹ If a first-time-contributor has a merge conflict maintainers will resolve the conflict for them.
+¹ Si un contribuyente primerizo tiene un conflicto de fusión, los mantenedores resolverán el conflicto por ellos.
 
-### Duplicate
+### Duplicar
 
-> When PR is repetitive or a duplicate.
+> Cuando una PR es repetitivo o duplicado.
 
 ```markdown
-Hey @username
+Hola, @username
 
-It seems that similar changes have already been accepted earlier for this article you're editing, sorry about that. 😓
+Parece que cambios similares ya han sido aceptados anteriormente para este artículo que está editando, lo siento. 😓
 
-If you feel you have more to add, please feel free to open up a new PR.
+Si cree que tiene más para agregar, no dude en abrir un nuevo RP.
 
-Thanks again! 😊
+¡Gracias de nuevo! 😊
 
 ---
 
-> If you have any questions, feel free to reach out through [Gitter](https://gitter.im/FreeCodeCamp/Contributors) or by commenting below. 💬
+> Si tiene alguna pregunta, no dude en comunicarse a través de [Gitter] (https://gitter.im/FreeCodeCamp/Contributors) o haciendo un comentario a continuación. 💬
 ```
 
-### Closing
+### Clausura
 
-> When PR is invalid.
+> Cuando una PR no es válido.
 
 ```markdown
-Hey @username
+Hola, @username
 
-You haven't actually added any content so I will be closing this PR and marking it as `invalid`. 😓️
+En realidad, no ha agregado ningún contenido, por lo que cerraré este anuncio y lo marcaré como "no válido". 😓️
 
-Feel free to open another PR though! 👍
+¡Siéntete libre de abrir otro RP! 👍
 ```
