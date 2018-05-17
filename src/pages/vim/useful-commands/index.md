@@ -43,9 +43,7 @@ Beginning/End of line movement:
 3. To exit and save, type `:q`
 
 **OR**
-
 - Type ZZ (save and quit)
-- Type `:wq` (save and quit but using with the commonly used "w" and "q" commands)
 
 ## Setting line numbers
 1. Press escape to get you into "normal" mode
@@ -74,8 +72,6 @@ Depending on the configuration, you may enter a file browser by typing and enter
 When in normal mode (press the `escape` key to make sure), you can search for any term in the document by typing `/`, followed by the term you're looking for, and then pressing `enter`. For example, type `/hello` and press `enter` to search for the word "hello" in the current file.
 
 You can skip to the next occurrence of your search term by pressing `n`, or the previous occurrence by pressing `N`.
-
-If you want to highlight all the search matches type `:set hlsearch` or use the abbreviated command `:set hls`.
 
 ## Pasting blocks of code
 
