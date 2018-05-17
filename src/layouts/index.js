@@ -10,7 +10,7 @@ import Link from 'gatsby-link';
 
 import SideNav from '../LayoutComponents/nav/SideNav.jsx';
 
-import logo from '../../assets/freeCodeCamp-logo.png';
+import logo from '../../assets/BigdataMx1.png';
 import glyph from '../../assets/freeCodeCamp-logo-glyph.png';
 
 import 'prismjs/themes/prism.css';
