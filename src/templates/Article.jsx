@@ -48,7 +48,7 @@ class Article extends React.Component {
     if (description !== null) {
       return description[1].replace(/<[^>]*>/i, '');
     } else {
-      return 'FreeCodeCamp Guide';
+      return 'Guia de BigDataMx';
     }
   }
 

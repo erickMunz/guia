@@ -34,7 +34,7 @@ export default class HTML extends React.Component {
           { this.props.headComponents }
           { metaAndStyleSheets }
           { css }
-          <title>freeCodeCamp Guide</title>
+          <title>Guias BigDataMx</title>
         </head>
         <body>
           <div

@@ -1,8 +1,8 @@
 {
-  "name": "freecodecamp-guide",
+  "name": "bigdatamx-guide",
   "description": "A collection of guides to various tools",
   "version": "0.1.0",
-  "author": "freeCodeCamp",
+  "author": "bigdatamx",
   "dependencies": {
     "axios": "^0.16.2",
     "babel-eslint": "^7.2.3",
